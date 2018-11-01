@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/btn1"
+    android:text="google"
+    android:textSize="24sp"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="24sp"
+        android:text="facebook in browser"
+        android:id="@+id/fbtn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="24sp"
+        android:text="Youtube"
+        android:id="@+id/yout"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="24sp"
+        android:text="Youtube in browser"
+        android:id="@+id/byou"/>
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:textSize="24sp"
+    android:text="Map"
+    android:id="@+id/map"/>
+</LinearLayout>
